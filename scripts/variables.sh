@@ -2,11 +2,11 @@
 
 # There are 3 ways of assigning a value to a variable
 
-# 1st way: Explicit definition
+# --- Explicit definition ---
 APPLE="Apple"
 echo $APPLE
 
-# 2nd way: Read command
+# --- Read command ---
 echo -n "Your name: "
 read -r NAME
 echo Name: "$NAME"
@@ -15,7 +15,7 @@ echo Name: "$NAME"
 read -r HOSTNAME < /etc/hostname
 echo Hostname: "$HOSTNAME"
 
-# 3rd way: Command substitution
+# --- Command substitution ---
 START=$(date +%s)
 
 sleep 2
