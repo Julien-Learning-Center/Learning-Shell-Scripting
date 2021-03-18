@@ -39,7 +39,7 @@ else
     if [ -d "$FILE" ]; then
         echo "$FILE is a directory."
     else
-        echo "The given file does not exists."
+        echo "The given file does not exist."
     fi
 
     exit 2
