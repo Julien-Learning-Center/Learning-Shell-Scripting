@@ -4,6 +4,7 @@ This repository holds the script I made while learning shell scripting.
 
 ## Things I've learned
 
+- [Arrays](scripts/arrays.sh)
 - [Arguments](scripts/arguments.sh)
 - [Case](scripts/case.sh)
 - [Conditional](scripts/conditional.sh)
