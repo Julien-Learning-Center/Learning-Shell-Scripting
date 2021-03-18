@@ -20,3 +20,5 @@ elif [ $RESULT -eq 0 ]; then
 else
     echo "$RESULT is positive."
 fi
+
+exit 0

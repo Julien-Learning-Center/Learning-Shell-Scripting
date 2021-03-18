@@ -24,3 +24,5 @@ END=$(date +%s)
 DIFFERENCE=$(( END - START ))
 
 echo Time elapsed: "$DIFFERENCE" seconds.
+
+exit 0

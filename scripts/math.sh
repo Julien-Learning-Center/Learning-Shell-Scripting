@@ -13,3 +13,5 @@ echo Result with double parenthesis: "$RESULT"
 # Note: This is outdated
 RESULT=$(expr $TEN + 10)
 echo Result with expr: "$RESULT"
+
+exit 0

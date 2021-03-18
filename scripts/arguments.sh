@@ -9,4 +9,6 @@ echo First argument: "$1"
 echo Second argument: "$2"
 echo All arguments: "$@"
 echo Argument count: "$#"
-echo "$?"
+echo Last Exit Code: "$?"
+
+exit 0
